@@ -15,7 +15,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={AuthenticationScreen} />
         <Route exact path="/auth" component={RedirectComponent} />
-        <Route exact path="/instagram" component={InstagramComponent} />
+        <Route path="/instagram" component={InstagramComponent} />
         <Route path="*" component={NotMatchScreen} />
       </Switch>
     </BrowserRouter>
